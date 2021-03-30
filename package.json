@@ -4,7 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon server.js"
+		"start": "nodemon server.js",
+		"delete": "node ./dev-data/data/import-dev-data.js --delete",
+		"import": "node ./dev-data/data/import-dev-data.js --import"
 	},
 	"author": "Sanjeev Ray",
 	"license": "ISC",
